@@ -23,7 +23,7 @@ app.get('/health', async (req, res) => {
     await pool.query('SELECT 1');
     res.json({ status: 'ok', sirin: 'StockPro API', timestamp: new Date() });
   } catch (err) {
-    res.status(503).json({ status: 'error', message: err.message });
+    res.status(503).json({ status: 'error', ข้อความ2: err.message });
   }
 });
 
