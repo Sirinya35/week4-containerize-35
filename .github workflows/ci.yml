@@ -1,4 +1,4 @@
-name: CI — StockPro    # ชื่อที่โชว์ใน GitHub Actions tab
+name: CI - StockPro    # ชื่อที่โชว์ใน GitHub Actions tab
 
 # ── on: กำหนด "เมื่อไหร่" จะ trigger ─────────────────────────
 on:
@@ -10,7 +10,7 @@ on:
     branches:
       - develop          # ทริกเกอร์เมื่อเปิด PR เข้า develop
       - main             # ทริกเกอร์เมื่อเปิด PR เข้า main
-
+      
 # ── jobs: งานที่ต้องทำ ─────────────────────────────────────────
 jobs:
   test-and-build:
