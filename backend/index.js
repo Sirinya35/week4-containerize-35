@@ -21,7 +21,7 @@ app.get('/', async (req, res) => {
 app.get('/health', async (req, res) => {
   try {
     await pool.query('SELECT 1');
-    res.json({ status: 'ok', service: 'StockPro API', timestamp: new Date() });
+    res.json({ status: 'ok', sirin: 'StockPro API', timestamp: new Date() });
   } catch (err) {
     res.status(503).json({ status: 'error', message: err.message });
   }
