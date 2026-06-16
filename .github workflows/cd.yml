@@ -8,9 +8,9 @@ on:
       - 'v*'       # push tag v1.0.0 → build versioned image
 
 jobs:
-  # ── Job 1: Build + Push Docker images ไปยัง Docker Hub ──────────
+  # ── Job 1: Build + Push Docker images ไปยัง Docker Hubjjyu ──────────
   build-and-push:
-    name: Build & Push to Docker Hub
+    name: Build & Push to Docker Hub  
     runs-on: ubuntu-latest
 
     steps:
