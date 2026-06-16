@@ -26,7 +26,7 @@ jobs:
           else
             echo "tag=latest" >> $GITHUB_OUTPUT
           fi
-          # GITHUB_REF ตัวอย่าง: refs/tags/v1.0.0
+          # GITHUB_REF ตัวอย่าง: refs/tags/v1.0.0  
           # ${GITHUB_REF#refs/tags/} = ตัด prefix → เหลือ v1.0.0
 
       # Login เข้า Docker Hub (ไม่ต้องระบุ registry = Docker Hub อัตโนมัติ)
