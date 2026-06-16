@@ -6,8 +6,7 @@ on:
     branches:  
       - develop          # ทริกเกอร์เมื่อ push ไป develop
       - 'feature/**'     # ทริกเกอร์เมื่อ push ไป feature/xxx
-  pull_request:
-    branches:
+  pull_request:    
       - develop          # ทริกเกอร์เมื่อเปิด PR เข้า develop
       - main             # ทริกเกอร์เมื่อเปิด PR เข้า main
 
