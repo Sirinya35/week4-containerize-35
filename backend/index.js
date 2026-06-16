@@ -14,7 +14,7 @@ app.get('/', async (req, res) => {
     await pool.query('SELECT 1');
     res.json({ status: 'ok', ศิรินทร์ญา: 'StockPro API', timestamp: new Date() });
   } catch (err) {
-    res.status(503).json({ status: 'error', message: err.message });
+    res.status(503).json({ status: 'error', ข้อความ: err.message });
   }
 });
 
