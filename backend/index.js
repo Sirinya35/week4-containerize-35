@@ -48,7 +48,7 @@ app.get('/api/products', async (req, res) => {
     );
     res.json(rows);
   } catch (err) {
-    res.status(500).json({ error: err.message });
+    res.status(500).json({ ข้อผิดพลาด: err.message });
   }
 });
 
